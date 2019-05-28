@@ -1,0 +1,62 @@
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	}
+
+p {
+	text-align: center;
+	font-size: 1.8em;
+	color: #919292
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	color: white;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	width: 400px;
+	text-align: center;
+	transition: all 0.3s;
+	box-shadow: 6px 6px 10px white;
+}
+
+h1:hover {
+transform: scale(1.05);
+}
+
+img {
+	margin: 7px;
+	height: 400px;
+	width: 600px;
+	transition: all 1s;
+	box-shadow: 3px 3px #28312D;
+}
+
+img:hover {
+transform: scale(1.05);
+}
+
+body {
+	background: #09120E;
+}
+
+.btn-success {
+	align-content: center;
+	justify-content: space-around;
+	flex-direction: column;
+	background-color: orange;
+	text-align: center;
+}
+
+.btn-success:hover {
+	background-color: blue;
+	transform: scale(1.1);
+}
+
+.button {
+	text-align: center;
+}
